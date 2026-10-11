@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "afkminer",
+  "version": "${version}",
+  "name": "AFK Miner",
+  "description": "Auto kopanie + automatyczne wpisywanie /kopafk <kod>",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.afkminer.AfkMinerClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
